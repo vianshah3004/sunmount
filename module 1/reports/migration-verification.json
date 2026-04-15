@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-04-12T18:54:27.786Z",
+  "environment": "development",
+  "checks": [
+    {
+      "check": "orders_missing_or_invalid_version",
+      "issueCount": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "non_draft_orders_marked_draft",
+      "issueCount": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "completed_purchase_not_paid",
+      "issueCount": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "completed_batch_without_end_date",
+      "issueCount": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "completed_batch_material_not_consumed",
+      "issueCount": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "completed_batch_output_not_added",
+      "issueCount": 0,
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "totalChecks": 6,
+    "failedChecks": 0,
+    "issueCount": 0
+  }
+}

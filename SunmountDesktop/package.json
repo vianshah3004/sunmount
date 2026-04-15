@@ -1,0 +1,19 @@
+{
+  "name": "sunmount-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "main": "electron/main.js",
+  "description": "Electron desktop shell for Sunmount web app",
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "start": "electron .",
+    "start:desktop": "npm run build:web && electron .",
+    "start:backend": "cd '/Users/vineetkumarshah/Hackathon/Sunmount /module 1' && npm run dev",
+    "start:full": "concurrently -k \"npm run start:backend\" \"wait-on tcp:4000 && npm run start:desktop\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^32.2.1",
+    "wait-on": "^8.0.1"
+  }
+}

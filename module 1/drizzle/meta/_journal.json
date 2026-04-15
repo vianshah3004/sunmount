@@ -1,0 +1,62 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1775399147140,
+      "tag": "0000_careless_hellfire_club",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1775563903904,
+      "tag": "0001_clumsy_kulan_gath",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1775566711232,
+      "tag": "0002_brave_frank_castle",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1775589045820,
+      "tag": "0003_nifty_bedlam",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1775645199000,
+      "tag": "0004_sunmount_settings_order_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1775659500000,
+      "tag": "0005_production_auth_users",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1776000000000,
+      "tag": "0006_transition_logs_and_rbac",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1776080000000,
+      "tag": "0007_user_audit_sessions",
+      "breakpoints": true
+    }
+  ]
+}

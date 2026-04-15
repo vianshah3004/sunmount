@@ -1,0 +1,41 @@
+# Ignore everything
+*
+
+# Allow gitignore itself
+!.gitignore
+
+# Allow required folders
+!Frontend/
+!Frontend/**
+
+!module 1/
+!module 1/**
+
+!SunmountDesktop/
+!SunmountDesktop/**
+
+# Ignore unnecessary files inside allowed folders
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Reports
+inventory_test_report.md
+final_system_test_report.md
+socket_test_report.md
